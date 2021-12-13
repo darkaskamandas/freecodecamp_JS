@@ -1,15 +1,7 @@
-function printManyTimes(str) {
-  "use strict";
+// Only change code below this line <== this comment is not needed
+const FCC = "freeCodeCamp";
+let fact = "is cool!";
+// Only change code above this line <== this is not true, check require changes in line with console.log
 
-  // change code below this line
-
-const SENTENCE = str + " is cool!";
-  for(let i = 0; i < str.length; i+=2) {
-    console.log(SENTENCE);
-  
-  }
-
-  // change code above this line
-
-}
-printManyTimes("freeCodeCamp");
+fact = "is awesome!";
+console.log(FCC, fact);
