@@ -1,8 +1,2 @@
-// Example
-var ourStr = "I come first. ";
-ourStr += "I come second.";
-
-// Only change code below this line
-
-var myStr = 'This is the first sentence. ';
-myStr +='This is the second sentence.';
+var str = "Good " + "job!"; // It says "Good job!"
+var abc = "Good" + "job!"; // It says "Goodjob!"
